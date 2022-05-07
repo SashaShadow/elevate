@@ -5,7 +5,7 @@ import example2 from "../img2.jpg";
 const Us = () => {
     return (
         <div className="Us">
-           <h2>¿QUIÉNES SOMOS?</h2>
+           <h2 className="titulo">¿QUIÉNES SOMOS?</h2>
            <div className="photos">
             <img className="photo" src={example}/>
             <img className="photo" src={example2}/>

@@ -4,7 +4,9 @@
   text-align: center;
   color: white;
   height: 100%;
+  width: 100vw;
   justify-content: center;
+  overflow-x:hidden;
 }
 
 .App h3 {
