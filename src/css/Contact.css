@@ -8,6 +8,12 @@
     width: 100vw;
 }
 
+button {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+}
 
 .Social {
     display: grid;
@@ -21,6 +27,17 @@
     text-shadow: 1px 1px 2px black;
 }
 
+a:hover {
+    color:rgb(43, 226, 217);
+    text-shadow: 1px 1px 2px black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .Icon {
     text-align: bottom;
 }
+

@@ -2,7 +2,7 @@ import "../css/Brand.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-const Brand = () => {
+const Brand = ({scroll}) => {
 
     const [links, setLinks] = useState(false);
 
@@ -20,8 +20,9 @@ const Brand = () => {
             </div>
             {links && <div className="Links">
                 <h3>HOME</h3>
-                <h3>NOSOTRAS</h3>
+                <button  onClick={() => scroll()}><h3>NOSOTRAS</h3></button>
                 <h3>CONTACTANOS</h3>
+                <h3>CONTENIDO</h3>
                 </div>}
         </div>
     )

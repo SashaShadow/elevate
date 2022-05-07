@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="Contact">
             <h2 className="titulo">CONTÁCTANOS</h2>
             <div className="Social">
-                <h3><ImWhatsapp className="Icon"/> +1305-799-3267</h3>
+                <h3><a href="https://wa.me/13057993267" target="_blank"><ImWhatsapp className="Icon"/> +1305-799-3267</a></h3>
                 <h3><BsFacebook/> ELEVATEFORMULA</h3>
                 <h3><BsInstagram/> ELEVATEFORMULA</h3>
                 <IconContext.Provider value={{ color: "white", className: "global-class-name" }}>
