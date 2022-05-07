@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Brand from "./components/Brand.js";
+import Us from "./components/Us.js";
 
 function App() {
   return (
     <div className="App">
-      <h1 className='titulo'>Elevate</h1>
+      <Brand/>
+      <Us/>
     </div>
   );
 }

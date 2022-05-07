@@ -1,0 +1,29 @@
+.Us {
+    background-color: #00A99D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    letter-spacing: 0.3rem;
+}
+
+.photo {
+    border-color: black;
+    border-style: dotted;
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    text-align:left;
+    margin-left: 2rem;
+    margin-top: 0%;
+}

@@ -1,9 +1,21 @@
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  color: white;
+  height: 100%;
+  justify-content: center;
 }
 
-.titulo {
-  font-weight: bolder;
-  color:rgb(177, 125, 168);
-  text-shadow: purple;
+.App h3 {
+  margin:0;
+  font-weight: lighter;
+  letter-spacing: 0.3rem;
+}
+
+.App h1 {
+  font-size: 350%;
+  margin-bottom: 0.1px;
+  margin:0;
+  letter-spacing: 0.3rem;
 }
