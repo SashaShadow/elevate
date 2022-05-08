@@ -1,18 +1,24 @@
 .Contact {
     background-color: #000000;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     font-weight: lighter;
     letter-spacing: 0.3rem;
-    height: 25vh;
+    height: 100vh;
     width: 100vw;
 }
 
 button {
+    background: none!important;
     border: none;
-    outline: none;
-    background: none;
-    color: white;
+    padding: 0!important;
+    font-family: 'ayuthayaregular', 'Helvetica Neue';
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+button:hover {
+    color:rgb(43, 226, 217);
 }
 
 .Social {

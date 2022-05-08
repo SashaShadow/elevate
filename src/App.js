@@ -8,13 +8,17 @@ import Content from "./components/Content.js";
 function App() {
 
   const testRef = useRef(null);
-  const scrollToElement = () => testRef.current.scrollIntoView();
+  const testRef2 = useRef(null);
+
+  const scrollToElement = (someRef) => someRef.current.scrollIntoView({ 
+    behavior: 'smooth' 
+  });
 
   return (
     <div className="App">
-      <Brand scroll={scrollToElement}/>
+      <Brand scroll={scrollToElement} ref1={testRef} ref2={testRef2}/>
       <Us myRef={testRef}/>
-      <Contact/>
+      <Contact myRef={testRef2}/>
     </div>
   );
 }

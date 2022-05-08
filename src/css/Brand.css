@@ -25,6 +25,10 @@
     animation-duration: 1.5s;
 }
 
+.Links a {
+    cursor: pointer;
+}
+
 @keyframes appear {
     0% {
         opacity: 0;
