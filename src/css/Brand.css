@@ -2,9 +2,11 @@
     color: white;
     background-color: darkgray;
     height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
 }
 
 .titulo:hover {

@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import Brand from "./components/Brand.js";
 import Us from "./components/Us.js";
 import Contact from "./components/Contact.js";
-import Content from "./components/Content.js";
+import MySlider from "./components/MySlider.js";
 
 function App() {
 
@@ -18,6 +18,7 @@ function App() {
     <div className="App">
       <Brand scroll={scrollToElement} ref1={testRef} ref2={testRef2}/>
       <Us myRef={testRef}/>
+      <MySlider/>
       <Contact myRef={testRef2}/>
     </div>
   );

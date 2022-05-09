@@ -1,12 +1,13 @@
 .Us {
-    background-color: #00A99D;
+    background: linear-gradient(darkgray,#00A99D);;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-weight: lighter;
     letter-spacing: 0.3rem;
-     /* En la versión mobile sacar esto */
+    width: 100vw;
+    /* En la versión mobile sacar esto */
 }
 
 .photo {
